@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { AppLayoutComponent } from "../../layout/app-layout/app-layout.component";
-import { GalleryContainerComponent } from "../../pods/gallery-container/gallery-container.component";
+import { AppLayoutComponent } from "@layout/app-layout/app-layout.component";
 
 @Component({
 	selector: 'app-gallery-scene',
 	standalone: true,
-	imports: [AppLayoutComponent, GalleryContainerComponent],
+	imports: [AppLayoutComponent],
 	templateUrl: './gallery-scene.component.html',
 	styleUrl: './gallery-scene.component.scss'
 })

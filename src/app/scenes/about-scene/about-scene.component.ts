@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
-import { AppLayoutComponent } from "../../layout/app-layout/app-layout.component";
-import { AboutContainerComponent } from "../../pods/about-container/about-container.component";
+import { AppLayoutComponent } from "@layout/app-layout/app-layout.component";
 
 @Component({
 	selector: 'app-about-scene',
 	standalone: true,
-	imports: [AppLayoutComponent, AboutContainerComponent],
+	imports: [AppLayoutComponent],
 	templateUrl: './about-scene.component.html',
 	styleUrl: './about-scene.component.scss'
 })
